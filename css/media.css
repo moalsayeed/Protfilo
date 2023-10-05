@@ -1,0 +1,289 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .logo {
+        width: 50%;
+    }
+
+    
+    .menu {
+       
+        background-color: rgba(0, 0, 0, 0.269);
+    }
+
+    .menu ul {
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    .menu ul li {
+        text-align: right;
+
+    }
+
+    .home-content h2 {
+        font-size: 40;
+    }
+
+    .about-me h2 {
+        font-size: 80px;
+
+    }
+
+    .about-me h2::after {
+
+        right: 23%;
+        bottom: 25%;
+
+    }
+
+    .about-me h2::before {
+        top: 75%;
+        left: 42.7%;
+    }
+
+    .iam {
+        width: 80%;
+        margin: auto;
+
+    }
+
+
+    .name {
+        width: 100%;
+        margin: auto;
+
+    }
+
+    .resume-services h2 {
+        font-size: 80px;
+
+    }
+
+    .resume-services h2::after {
+
+        right: 30%;
+        bottom: 25%;
+
+    }
+
+    .resume-services h2::before {
+        top: 70%;
+        left: 40.7%;
+    }
+
+
+    .summary-text h2 {
+        font-size: 80px;
+
+    }
+
+    .summary-text h2::after {
+
+        right: 32%;
+        bottom: 25%;
+
+    }
+
+    .summary-text h2::before {
+        top: 75%;
+        left: 40.7%;
+    }
+
+
+    .mywork h2 {
+        font-size: 60px;
+
+    }
+
+    .mywork h2::after {
+
+        right: 35%;
+        bottom: 25%;
+
+    }
+
+    .mywork h2::before {
+        top: 75%;
+        left: 42.7%;
+    }
+
+    .clientspeak h2 {
+        font-size: 70px;
+
+    }
+
+    .clientspeak h2::after {
+
+        right: 25%;
+        bottom: 25%;
+        font-size: 2.25rem;
+
+    }
+
+    .clientspeak h2::before {
+        top: 75%;
+        left: 42.7%;
+    }
+
+
+    .getintouch h2 {
+        font-size: 80px;
+
+    }
+
+    .getintouch h2::after {
+
+        right: 23%;
+        bottom: 25%;
+
+    }
+
+    .getintouch h2::before {
+        top: 75%;
+        left: 42.7%;
+    }
+
+    .email {
+        position: relative;
+        left: -170;
+    }
+
+    .count {
+        width: 50%;
+        border: 1px dashed #cad2dc;
+        padding: 15px;
+    }
+
+    .ctop {
+        border-top: 0;
+    }
+
+    .cb {
+        border-bottom: 0;
+    }
+
+    .cr {
+        border-right: 0;
+    }
+
+    .cl {
+        border-left: 0;
+    }
+
+    .btn11 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .list-left {
+        width: 100%;
+    }
+
+    .list-right {
+        width: 100%;
+    }
+
+    .list {
+        width: 100%;
+    }
+
+    .cont-left {
+        width: 100%;
+    }
+
+    .cont-right {
+        width: 100%;
+    }
+
+    .left-prog {
+        width: 100%;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .right-prog {
+        width: 100%;
+        padding-right: 0%;
+        padding-left: 0%;
+    }
+
+    .my-skills {
+        margin-left: -1%;
+    }
+
+    .grand {
+        width: 100%;
+    }
+
+    .cpic {
+        width: 100%;
+    }
+
+    .comments {
+        width: 100%;
+    }
+
+    .comments .c {
+        width: 100%;
+    }
+
+    .cc2 {
+        margin-top: 15px;
+    }
+
+    .contsend {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .adress {
+        width: 100%;
+
+        text-align: center;
+    }
+
+    .send {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .form-control {
+        margin-bottom: 4%;
+    }
+
+    .formwidth {
+        width: 100%;
+        margin-right: -41%;
+    }
+
+    .btnnnnn {
+        margin-left: -8%;
+    }
+
+    .footerr {
+        text-align: center;
+    }
+
+    .copyright {
+        width: 100%;
+    }
+
+    .aa {
+        width: 100%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
